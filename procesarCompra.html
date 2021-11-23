@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="style/normalize.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet" />
+  <title>Fuxa's Clothes</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html">
+      <img class="header__logo" src="img/Fuxa.png" alt="imagen logo" />
+    </a>
+  </header>
+  <nav class="navegacion">
+    <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+    <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    <a href="carrito.html">
+      <i class="fas fa-shopping-cart"></i>
+    </a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+  <main class="contenedor principal">
+    <h1>Complete los datos a continuacion: </h1>
+    <div class="contenedor">
+      <form class="formulario" id="formulario">
+        <p>nombre</p>
+        <input type="text" id="nombre" placeholder="Escriba su nombre " />
+        <p>Email</p>
+        <input type="email" id="email" placeholder="Escriba su  Email" />
+        <p>Telefono</p>
+        <input type="tel" id="telefono" placeholder="Escriba su Telefono " />
+        <div class="botonesProcesoCompra">
+        <button class="botonVolverTienda boton " href="index.html" id="boton">Seguir comprando</button>
+      </div>
+      <div class="botonesProcesoCompra">
+        <button class="botonEnviar boton" type="click" id="boton">Enviar</button>
+      </div>
+      </form>
+    
+    </div>
+  </main>
+  <footer class="footer">
+    <p class="footer__texto">Proyecto final Coderhouse JS 2021</p>
+    <div class="iconos">
+      <a href="https://www.facebook.com/ignacio.benitez.7/">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://github.com/ignacio2194">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </footer>
+</body>
+
+  <script src="sweetalert2.all.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://kit.fontawesome.com/ffed76ca92.js" crossorigin="anonymous"></script>
+<script src="js/procesarCompra.js"></script>
+<script src="js/app.js"></script>
+
+
+</html>

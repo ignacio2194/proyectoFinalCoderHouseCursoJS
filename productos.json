@@ -1,0 +1,68 @@
+{
+    "productos" :[
+     {
+         "id":1,
+         "nombre":"remera basic",
+         "precio" :120,
+         "imagen": "img/cele1.jpg"
+         
+     },
+     {
+        "id":2,
+        "nombre":"remera-orange",
+        "precio" :500,
+        "imagen": "img/cele2.jpg"
+        
+    },
+    {
+        "id":3,
+        "nombre":"remera midnight violet",
+        "precio" :380,
+        "imagen": "img/cele3.jpg"
+        
+    },
+    {
+        "id":4,
+        "nombre":"black and white",
+        "precio" :600,
+        "imagen": "img/cele4.jpg"
+        
+    },
+    {
+        "id":5,
+        "nombre":"remera  blue basic",
+        "precio" :100,
+        "imagen": "img/cele5.jpg"
+
+        
+    },
+    {
+        "id":6,
+        "nombre":"remera hippie",
+        "precio" : 450,
+        "imagen": "img/cele6.jpg"
+        
+    },
+    {
+        "id":7,
+        "nombre":"remeron blanco",
+        "precio" :200,
+        "imagen": "img/cele7.jpg"
+        
+    }, {
+        "id":8,
+        "nombre":"remera carnaval",
+        "precio" : 250,
+        "imagen": "img/cele8.jpg"
+        
+    }, {
+        "id":9,
+        "nombre":"remera full black",
+        "precio" : 200,
+        "imagen": "img/cele9.jpg"
+        
+    }
+    
+]
+}
+
